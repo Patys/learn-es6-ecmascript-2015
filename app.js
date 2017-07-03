@@ -1,11 +1,6 @@
-function* greet() {
-  console.log('Hiii');
-  yield "Jeld";
-}
+let myMap = new Map();
 
-let greeter = greet();
-console.log(greeter);
-let next = greeter.next();
-console.log(next);
-let done = greeter.next();
-console.log(done);
+myMap.set('foo', 'bar');
+myMap.set('Hello', 'World');
+
+console.log(myMap.get('foo'));
