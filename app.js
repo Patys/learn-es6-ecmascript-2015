@@ -2,4 +2,6 @@ var createGreeting = function(message, name) {
   return message + name;
 }
 
-console.log(createGreeting('Hello ', 'Patryk'));
+var arrowGreeting = (message, name) => message + name;
+
+console.log(arrowGreeting('Hello ', 'Patryk'));
