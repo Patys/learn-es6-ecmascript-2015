@@ -1,12 +1,4 @@
-function generateObject() {
-  return {
-    color: "red",
-    name: "Patryk",
-    place: "Poland"
-  }
-}
+let [first,,third] = ["red", "blue", "orange"];
 
-let {color, name: firstName} = generateObject();
-
-console.log(color);
-console.log(firstName);
+console.log(first);
+console.log(third);
