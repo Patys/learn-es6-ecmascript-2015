@@ -1,7 +1,11 @@
-let message = 'hi';
+var fs = []
 
-{
-  let message = 'bye';
+for(var i = 0; i < 10; i++) {
+  fs.push(function() {
+    console.log(i);
+  });
 }
 
-console.log(message);
+fs.forEach(function(f) {
+  f();
+});
