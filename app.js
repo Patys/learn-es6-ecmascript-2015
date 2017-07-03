@@ -1,4 +1,4 @@
-const VALUE = 'Hello world';
-VALUE = 'hi';
-
-console.log('value: ', VALUE);
+if(true) {
+  const foo = 'bar';
+  console.log(foo);
+}
