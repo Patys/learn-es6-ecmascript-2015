@@ -1,4 +1,18 @@
-let [first,,third] = ["red", "blue", "orange"];
+let people = [
+  {
+    firstName: "Patryk",
+    email: "kontakt@patys.pl"
+  },
+  {
+    firstName: "Tomek",
+    email: "kontakt@tomek.pl"
+  }
+]
 
-console.log(first);
-console.log(third);
+let [, Tomek] = people;
+
+function logEmail({email}) {
+  console.log(email);
+}
+
+logEmail(Tomek);
