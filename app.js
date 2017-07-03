@@ -1,16 +1,6 @@
-let salutation = "hi";
-let place = 'Poland';
-let greeting = `
-${salutation}
+let x = 1;
+let y = 2;
 
-    Patryk
+let equation = `${x} + ${y} = ${x+y}`;
 
-Welcome
-          in
-    ${place}
-    !
-
-!!
-    `;
-
-console.log(greeting);
+console.log(equation);
