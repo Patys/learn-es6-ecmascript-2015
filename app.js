@@ -1,7 +1,7 @@
-var message = 'hi';
+let message = 'hi';
 
 {
-  var message = 'bye';
+  let message = 'bye';
 }
 
 console.log(message);
