@@ -1,18 +1,5 @@
-let people = [
-  {
-    firstName: "Patryk",
-    email: "kontakt@patys.pl"
-  },
-  {
-    firstName: "Tomek",
-    email: "kontakt@tomek.pl"
-  }
-]
-
-let [, Tomek] = people;
-
-function logEmail({email}) {
-  console.log(email);
+function sumTwo(a,b) {
+  return a + b;
 }
 
-logEmail(Tomek);
+console.log('2 + 3 = ', sumTwo(2,3));
