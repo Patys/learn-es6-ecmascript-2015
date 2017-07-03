@@ -1,6 +1,8 @@
-let x = 1;
-let y = 2;
+function checkTime(strings, ...values) {
+  console.log(strings);
+  console.log(values);
+}
 
-let equation = `${x} + ${y} = ${x+y}`;
+let message = checkTime`It's ${new Date().getHours()} and I'm sleepy`;
 
-console.log(equation);
+console.log(message);
