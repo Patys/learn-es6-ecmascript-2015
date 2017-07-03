@@ -1,4 +1,6 @@
-if(true) {
-  const foo = 'bar';
-  console.log(foo);
-}
+let firstName = "Patryk";
+let lastName = "Szczygło";
+
+let person = {firstName, lastName};
+
+console.log(person);
