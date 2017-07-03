@@ -1,12 +1,10 @@
-let firstName = "Patryk";
-let lastName = "Szczygło";
+let color = "Czerwony";
+let speed = 10;
+function go() {
+  console.log('Brrrumm');
+}
+let car = {color, speed, go};
 
-let person = {firstName, lastName};
-
-console.log(person);
-
-let mascot = "Bear";
-
-let team = {person, mascot}
-
-console.log(team);
+console.log(car.color);
+console.log(car.speed);
+car.go();
