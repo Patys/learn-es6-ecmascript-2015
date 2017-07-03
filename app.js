@@ -1,17 +1,11 @@
-let d = new Promise((resolve, reject) => {
-  setTimeout(() => {
-      if(true) {
-      resolve("HI :D");
-    } else {
-      reject("oops");
-    }
-  });
-}, 2000);
+function* greet() {
+  console.log('Hiii');
+  yield "Jeld";
+}
 
-d
-  .then((data) =>  {
-    console.log(data);
-    return "whoop"
-  })
-  .then((data) => console.log(data))
-  .catch((error) => console.error(error));
+let greeter = greet();
+console.log(greeter);
+let next = greeter.next();
+console.log(next);
+let done = greeter.next();
+console.log(done);
