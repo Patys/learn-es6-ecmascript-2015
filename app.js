@@ -1,13 +1,7 @@
-var deliveryBoy = {
-  name: "Patryk",
+var message = 'hi';
 
-  handleMessage: function(message, handler) {
-    handler(message);
-  },
-
-  receive: function() {
-    this.handleMessage("Hello ", message => console.log(message + this.name));
-  }
+{
+  var message = 'bye';
 }
 
-deliveryBoy.receive();
+console.log(message);
