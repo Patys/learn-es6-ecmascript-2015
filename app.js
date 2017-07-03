@@ -1,5 +1,4 @@
-function receive(complete = () => console.log('gotowe')) {
-  complete();
-}
+var VALUE = 'Hello world';
+VALUE = 'hi';
 
-receive();
+console.log('value: ', VALUE);
