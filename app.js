@@ -1,5 +1,5 @@
-function greet(greeting, name = "Patryk") {
-  console.log(greeting + ', ' + name);
+function receive(complete = () => console.log('gotowe')) {
+  complete();
 }
 
-greet("Hi", "John");
+receive();
